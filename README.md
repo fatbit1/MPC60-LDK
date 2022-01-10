@@ -1,10 +1,10 @@
 # MPC60-LDK
-MPC60 KEYBOARD LOOP and DELAY
+AKAI MPC60 KEYBOARD LOOP and DELAY
   This project uses this Arduino MIDILibrary: https://github.com/FortySevenEffects/arduino_midi_library
   
   The following features are supported by KLD.
   1) CHROMATIC KEYS: Mapping of an MPC60 sound to an external chromatic keyboard. Chords and polyphony are supported.
-  2) LOOP/REPETITION: Play the selected sound as a variable lenght loop.
+  2) LOOP/REPETITION: Play the selected sound as a rudimentary variable lenght loop.
   3) DECAY: Decrease the sound velocity at each repetition.
   
   Shopping list:
@@ -14,7 +14,7 @@ MPC60 KEYBOARD LOOP and DELAY
     4) USB Cable
     5) 5V USB Charger or 9V PSU for Arduino
     6) External MIDI Keyboard (Tested on a Emu EMAX I. All 61 keys MIDI keyboards with pitchbend and right wheel should work with no changes)
-    7) MPC60/MPC60II. Should work with MPC3000 or other MPCs, too, but most likely, there will be no use case for these other models.
+    7) AKAI MPC60/MPC60II. Should work with MPC3000 or other MPCs, too, but most likely, there will be no use case for these other models.
     
    Sketch loading and preliminary steps:
     1) Attach the MIDI shield to Arduino UNO. Check if shield and Arduino pins match as some MIDI shields do not have a standard form factor.
