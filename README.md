@@ -12,7 +12,7 @@
     4) USB Cable
     5) 5V USB Charger or 9V PSU for Arduino
     6) External MIDI Keyboard (Tested on a Emu EMAX I. All 61 keys MIDI keyboards with pitchbend and right wheel should work with no changes)
-    7) MPC60/MPC60II. Should work the same with MPC3000 or other MPCs but most likely, there is no use case for these other models.
+    7) MPC60/MPC60II. Should work the same with MPC3000 or other MPCs but most likely, there is no real use case with these other models.
    Sketch loading a preliminary steps:
     1) Attach the MIDI shield to Arduino UNO. Check if shield and Arduino pins match as some MIDI shields do not have a standard form factor.
     2) Switch the ON/OFF RX(S2) switch to OFF ( otherwise Sketchloading will fail with an error)
