@@ -15,7 +15,7 @@
     7) MPC60/MPC60II. Should work the same with MPC3000 or other MPCs but most likely, there is no use case for these other models.
    Sketch loading a preliminary steps:
     1) Attach the MIDI shield to Arduino UNO. Check if shield and Arduino pins match as some MIDI shields do not have a standard form factor.
-    2) Switch the ON/OFF RX(S") switch to OFF ( otherwise Sketchloading will fail with an error)
+    2) Switch the ON/OFF RX(S2) switch to OFF ( otherwise Sketchloading will fail with an error)
     3) Plug the USB cable to a computer running the Arduino IDE
     4) Select the right Serial port for programming (Tools/port/... from Arduino IDE)
     5) Open the present file and run Sketch/Upload
